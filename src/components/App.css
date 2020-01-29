@@ -1,0 +1,88 @@
+.Header {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.075);
+
+  nav ul {
+    display: flex;
+
+    li {
+      padding: 0.5rem;
+
+      a {
+        color: rgba(255, 255, 255, 0.37);
+        text-decoration: none;
+
+        &.active, &:hover {
+          color: rgba(75, 72, 255, 0.472);
+        }
+      }
+    }
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60rem;
+    margin: auto;
+    h1 {
+      font-weight: 600;
+      font-size: 4rem;
+      text-align: center;
+      text-transform: uppercase;
+      color:  rgba(48, 45, 255, 0.58);
+    }
+
+    h2 {
+      display: inline-block;
+      padding: 0.4rem;
+
+      background-color: rgb(30, 28, 190);
+      color: rgb(255, 251, 251);
+      border-radius: 50%;
+
+      font-weight: 600;
+      font-size: 1.8rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.Footer {
+  overflow: hidden;
+  padding: 1rem;
+  background-color: rgb(30, 28, 190);
+  color: rgb(158, 158, 158);
+  font-size: 1.5rem;
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+
+    p {
+      padding: 1rem;
+      margin: 0.4rem;
+    }
+  }
+
+  .acknowledgment {
+    text-align: center;
+    a {
+      display: inline-block;
+      border-bottom: 0.1rem solid rgb(255, 152, 0);
+      color: rgb(245, 245, 245);
+
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s ease 0s;
+
+      &:hover {
+        border-bottom: 0.1rem solid rgb(245, 245, 245);
+        color: rgb(255, 152, 0);
+      }
+    }
+  }
+}

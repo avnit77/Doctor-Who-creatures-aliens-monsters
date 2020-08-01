@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<Fragment>
+  <Header />
+  <div
+    className="results"
+  >
+    <Creature
+      about="scary!"
+      episodes="Blink, The Time of Angels, Flesh and Stone, The Angels Take Manhattan"
+      homePlanet="Cronenberg"
+      image="./src/assets/weeping-angels.jpg"
+      species="Weeping Angels"
+      yearIntroduced={2007}
+    />
+    <Creature
+      about="old!"
+      episodes="The End of The World, New Earth, Gridlock"
+      image="./src/assets/boekind.jpg"
+      species="Boekind"
+      yearIntroduced={2005}
+    />
+    <Creature
+      about="insects!"
+      episodes="The Web Planet"
+      homePlanet="Vortis"
+      image="./src/assets/menoptera.jpg"
+      species="Menoptera"
+      yearIntroduced={1965}
+    />
+    <Creature
+      about="wet!"
+      episodes="The Seas Devils"
+      homePlanet="Earth"
+      image="./src/assets/sea-devils.jpg"
+      species="Sea Devils"
+      yearIntroduced={1972}
+    />
+    <Creature
+      about="big!"
+      episodes="Battlefield"
+      homePlanet="Space"
+      image="./src/assets/cheetah-people.jpg"
+      species="Cheetah People"
+      yearIntroduced={1989}
+    />
+    <Creature
+      about="scary!"
+      episodes="The Beast Below"
+      homePlanet="Cronenberg"
+      image="./src/assets/star-whale.jpg"
+      species="Star Whale "
+      yearIntroduced={2010}
+    />
+    <Creature
+      about="leggy!"
+      episodes="Kill the Moon"
+      homePlanet="The Moon"
+      image="./src/assets/spider-germ.jpg"
+      species="Spider Germ"
+      yearIntroduced={2014}
+    />
+    <Creature
+      about="exterminate!"
+      episodes="So many"
+      homePlanet="Skaro"
+      image="./src/assets/daleks.jpg"
+      species="Daleks"
+      yearIntroduced={1963}
+    />
+  </div>
+  <Footer />
+</Fragment>
+`;
